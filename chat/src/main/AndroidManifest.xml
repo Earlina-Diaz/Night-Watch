@@ -46,6 +46,6 @@
         <!-- Bridgefy SDK key -->
         <meta-data
             android:name="com.bridgefy.sdk.API_KEY"
-            android:value="YOUR_API_KEY" />
+            android:value="g6RkYXRh3ABMMjAyMC0xMi0xNlQxMDowNTo0NC4yMTVafDIwMjEtMDItMjdUMTQ6MjQ6MjEuNTMwWnxjb20uaWNhbS1saWxsZS5uaWdodC13YXRjaKlzaWduYXR1cmXcAQBLGsy0CcysWczFzKXMrszizMZpzI7MhczUX8zREHdXXkLMy8y6cRXMsE0vzMsKQsyDzIFmO2LMum/MmMz2VszBzMwsH8zwzP/M6nzMvz01ccyCYWXM5cyyzI7M2FdyMCnMrh3M2zHMuhhHzLAczIHMpMzeTWbM0ABOzOExzIfM4cydzOPMmnzM8hjM8MzoVmfMoMyfzIJ1zMYHzJwFzNsHzIcDzJbMjgnM/27Mrsy1zIXMnMytZ8ySS8zszL7MvDMcNMzHGMz1cEfM5synNcywzKUZGwA+anRWzM9ZzMksUVfMtMyAzPXMiszlAS3M5SxIKcyFbMyRzNlAZEnMuMyHzN7M9cy4dnIdU8zFzIwQzN3Mm8yNEQsOBczedsz8a3M3FA0BHThEzNHM8MyNzP8SzI/M0cz8zIYKzOjM1V01zOd0XcykzO5OzNwQzNTMzczvzJDMpcztzL3M9zZDSsyfWBfM9czHzPpszPvMjMzQIVI3zPUOzPc7URwNzJrM9MyuzM2jYWVzsFlTSnU0RFVraW1mMEYvQ24=" />
     </application>
 </manifest>

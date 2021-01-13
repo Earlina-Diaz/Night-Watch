@@ -1,6 +1,7 @@
 package com.bridgefy.samples.chat;
 
 import android.Manifest;
+import android.app.ActivityManager;
 import android.bluetooth.BluetoothAdapter;
 import android.content.Context;
 import android.content.Intent;
@@ -75,18 +76,19 @@ public class MainActivity extends AppCompatActivity {
             bluetoothAdapter.enable();
         }
         Bridgefy.debug = BuildConfig.DEBUG;
-        Bridgefy.initialize(getApplicationContext(), new RegistrationListener() {
+        RegistrationListener registrationListener;
+        Bridgefy.initialize(getApplicationContext(),"g6RkYXRh3ABMMjAyMC0xMi0xNlQxMDowNTo0NC4yMTVafDIwMjEtMDItMjdUMTU6MDY6MjMuMjYwWnxjb20uaWNhbS1saWxsZS5uaWdodC13YXRjaKlzaWduYXR1cmXcAQDMjcyLfmTM5My0TwxKEwrMlsyUDczdaRTMm2IczMbMnMyrTsyKBczHMh7Mqsz/zPPM3MyZzI5OLWdNaMzxeBZ4emHM7EJ/zO0JzIHMgMy1zPLMxFTMvszezKTMqczBzJvM2MzmzLPMkyzMkUTMj8zgzJlvzMNKzKTMw8yYzOXMhszmHRbMlAV9V25bFcy4X8yeZ8yczPXM9HbMlFPMlTrM/szsW8zCMMyZzJs3MczRzLvM7h7M2wJhzJzMt0DMtszpzOwKe8yNLUcvNHzMzQ7MoDchUAAqzKrM1ylAZEkXzKwlzLESzNLMnczWzP5wLEp2zILMm8ylzOvMhszGWW58zPbM8szsGiDM/czKfyDMo2waMGUxBEbM4syBE8zdU8ybFw3M82/MsUQmHsyQzO0wJczMzIpSQWLMzkjMt0tXzKZAJTx2Y8yVeczKzKdcQH7MjMzLzI5iZRzMr3I0UszozPPM/UJJzMbMk3nM3cy7IhbM3cz2zKU+zMBRTqNhZXOwWVNKdTREVWtpbWYwRi9Dbg==", new RegistrationListener() {
             @Override
             public void onRegistrationSuccessful(BridgefyClient bridgefyClient) {
                 // Start Bridgefy
                 startBridgefy();
             }
-
             @Override
             public void onRegistrationFailed(int errorCode, String message) {
                 Toast.makeText(getBaseContext(), getString(R.string.registration_error),
                         Toast.LENGTH_LONG).show();
             }
+
         });
     }
 
