@@ -7,4 +7,6 @@
 
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_menu">247dp</dimen>
+    <dimen name="activity_vertical_menu">267dp</dimen>
 </resources>
