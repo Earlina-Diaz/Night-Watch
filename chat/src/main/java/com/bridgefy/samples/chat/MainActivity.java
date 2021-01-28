@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
     static final String INTENT_EXTRA_UUID = "peerUuid";
     static final String INTENT_EXTRA_TYPE = "deviceType";
     static final String INTENT_EXTRA_MSG  = "message";
-    static final String BROADCAST_CHAT    = "Broadcast";
+    static final String BROADCAST_CHAT = "Forum";
 
     static final String PAYLOAD_DEVICE_TYPE  = "device_type";
     static final String PAYLOAD_DEVICE_NAME  = "device_name";
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         }
         Bridgefy.debug = BuildConfig.DEBUG;
         RegistrationListener registrationListener;
-        Bridgefy.initialize(getApplicationContext(),"g6RkYXRh3ABMMjAyMC0xMi0xNlQxMDowNTo0NC4yMTVafDIwMjEtMDItMjdUMTU6MDY6MjMuMjYwWnxjb20uaWNhbS1saWxsZS5uaWdodC13YXRjaKlzaWduYXR1cmXcAQDMjcyLfmTM5My0TwxKEwrMlsyUDczdaRTMm2IczMbMnMyrTsyKBczHMh7Mqsz/zPPM3MyZzI5OLWdNaMzxeBZ4emHM7EJ/zO0JzIHMgMy1zPLMxFTMvszezKTMqczBzJvM2MzmzLPMkyzMkUTMj8zgzJlvzMNKzKTMw8yYzOXMhszmHRbMlAV9V25bFcy4X8yeZ8yczPXM9HbMlFPMlTrM/szsW8zCMMyZzJs3MczRzLvM7h7M2wJhzJzMt0DMtszpzOwKe8yNLUcvNHzMzQ7MoDchUAAqzKrM1ylAZEkXzKwlzLESzNLMnczWzP5wLEp2zILMm8ylzOvMhszGWW58zPbM8szsGiDM/czKfyDMo2waMGUxBEbM4syBE8zdU8ybFw3M82/MsUQmHsyQzO0wJczMzIpSQWLMzkjMt0tXzKZAJTx2Y8yVeczKzKdcQH7MjMzLzI5iZRzMr3I0UszozPPM/UJJzMbMk3nM3cy7IhbM3cz2zKU+zMBRTqNhZXOwWVNKdTREVWtpbWYwRi9Dbg==", new RegistrationListener() {
+        Bridgefy.initialize(getApplicationContext(),"e6612211-ade9-42aa-b7f8-a10ea96ae25a", new RegistrationListener() {
             @Override
             public void onRegistrationSuccessful(BridgefyClient bridgefyClient) {
                 // Start Bridgefy
